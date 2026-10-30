@@ -23,4 +23,11 @@
   }
   var row = document.querySelector('[data-day="' + day + '"]');
   if (row) row.classList.add("today");
+  /* entradas escalonadas */
+  var items = document.querySelectorAll("main section:not(.hero) h2, main section:not(.hero) .card, main section:not(.hero) .steps li, main section:not(.hero) figure, main section:not(.hero) details, .hero .lead, .hero .cta-row, .hero-ph");
+  items.forEach(function (n, k) { n.classList.add("rv"); n.style.setProperty("--i", String(k % 4)); });
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }); }, { threshold: 0.15 });
+    items.forEach(function (n) { io.observe(n); });
+  } else { items.forEach(function (n) { n.classList.add("in"); }); }
 })();
