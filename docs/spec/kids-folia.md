@@ -39,7 +39,7 @@ Criar o site institucional da **Kids Folia**, casa de festas infantis na Vila No
   - Vermelho-doce `#D8364B` (pirulitos, sorvete) — destaque
   - Verde-bala `#2FAE5B` (pirulito gigante)
   - Chocolate `#5C3D33` (fachada) — texto escuro e rodapé
-  - Creme `#FFF8EC` — fundo; branco-glacê `#FFFFFF`
+  - Creme `#FBF6EE` — fundo; branco-glacê `#FFFFFF`
 - **Personalidade:** festeira, doce, acolhedora, de bairro. Não é parque corporativo: é a casa de festas onde a fachada já é um convite.
 - **Narrativa:** "Sua festa começa na porta." A fachada de doce é o ativo mais memorável e é prova real.
 - **Fraquezas atuais:** sem site, sem logo digital em boa resolução, poucas fotos boas, presença web difícil de achar, sem preço/capacidade públicos.
@@ -59,7 +59,7 @@ Criar o site institucional da **Kids Folia**, casa de festas infantis na Vila No
 - **Conceito:** "Glacê" — superfícies cremes com **bordas onduladas de glacê escorrendo** (inspiradas no telhado da fachada), faixas de cor chapada e confete geométrico discreto. Nasce da fachada real, não de template.
 - **Tokens:** os da seção 4. Azul é a cor de ação estrutural; **amarelo = CTA primário** (texto chocolate sobre amarelo, contraste ≥ 7:1); vermelho/verde só como acento pontual (máx. 2 acentos além da paleta).
 - **Tipografia:** títulos arredondados e amigáveis porém legíveis (candidatas: Baloo 2, Fredoka, Nunito Black); texto em Nunito/Inter. Auto-hospedar fontes (woff2, `font-display: swap`).
-- **Hero:** foto real da fachada ocupando o fundo/lado, H1 em **um único bloco legível**: "Festa infantil na Vila Nova Mazzei que começa já na fachada." Subtítulo curto, CTA "Chamar no WhatsApp" amarelo e "Ver o espaço" secundário, acima da dobra a 390 px. Linha "Aberto hoje até 18h" calculada pelo horário real.
+- **Hero:** foto real da fachada ocupando o fundo/lado, H1: "Festa infantil que começa na fachada" (a Vila Nova Mazzei fica no subtítulo e no title) Subtítulo curto, CTA "Chamar no WhatsApp" amarelo e "Ver o espaço" secundário, acima da dobra a 390 px. Linha "Aberto hoje até 18h" calculada pelo horário real.
 - **Não fazer:** gradiente roxo genérico; mascotes/personagens licenciados; emojis como ícones; carrossel automático; contadores/estatísticas inventadas; fotos de banco; depoimentos fictícios; pop-up de entrada.
 
 ## 8. UX: páginas e fluxo
